@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400;600&family=Ubuntu:wght@300;500;700&display=swap');
+
+:root {
+    --primary: #131313;
+    --secondary: #FFB800;
+    --tertiary: #C2C2C2;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary);
+}
+
+body {
+    height: 200vh;
+    margin: 1rem;
+    font-family: "Ubuntu", sans-serif;
+    color: #ffffff;
+}
+
+header {
+    top: 0;
+}
+
+.homepage-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 433px;
+}
+
+.homepage-text {
+    display: flex;
+    flex-direction: column;
+    width: 338px;
+    text-align: center;
+}
+
+#homepage-header {
+    font-weight: 700;
+    line-height: 45px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#homepage-subheading {
+    font-weight: 300;
+    line-height: 40px;
+    font-size: 24px;
+    margin-bottom: 55px;
+}
+
+.homepage-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-login, .button-signup {
+    width: 112px;
+    height: 44px;
+    border-radius: 0.5rem;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.button-login {
+    background-color: #7B7B7B;
+    color: #D3D3D3;
+}
+
+.button-login:hover {
+    background-color: #ADADAD;
+}
+
+.button-signup {
+    background-color: var(--secondary);
+    color: var(--primary);
+    margin-left: 27px;
+}
+
+.button-signup:hover {
+    background-color: #FFD568;
+}
+
+#or {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    margin-left: 27px;
+}
+.list {
+    list-style: none;
+}
+
+.list-perks {
+    color: var(--secondary);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    justify-content: center;
+    margin-left: 86px;
+    margin-bottom: 52px;
+}
+
+
+
+.list-perks-text {
+    margin-left: 22px;
+}
+
+
+/* Small (sm) */
+@media (min-width: 640px) {
+}
+
+#header-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    background-color: var(--primary);
+    margin: 0;
+}
+
+.line-divider {
+    background-color: #666666;
+    height: 1px;
+    width: 329px;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+.list-social-media {
+    display: flex;
+}
+
+.list-footer-text {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+    /* Your styles for the medium breakpoint here */
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+    /* Your styles for the large breakpoint here */
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+    /* Your styles for the extra large breakpoint here */
+}
+
+/* 2XL (2xl) */
+@media (min-width: 1536px) {
+    /* Your styles for the 2XL breakpoint here */
+}
