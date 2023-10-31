@@ -20,20 +20,28 @@ body {
     background-color: var(--primary);
 }
 
-header {
-    top: 0;
+/* HEADER */
+
+.header-homepage {
+    background-color: var(--primary);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    height: 64px;
+    width: 100%;
 }
 
-/* Small (sm) */
-@media (min-width: 640px) {
+.logo {
+    padding-top: 0.4rem;
 }
+
+/* HERO */
 
 .homepage-hero-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
-    height: 433px;
     background-color: #00000090;
     margin-top: 83px;
     position: absolute;
@@ -41,16 +49,17 @@ header {
 }
 
 .homepage-hero {
-    height: 671px;
+    height: 612px;
     width: 100%;
-    background-image: url("../assets/images/homepage/homepage-hero-bg.png");
 }
 
 
 .homepage-text {
     display: flex;
     flex-direction: column;
-    width: 338px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 
@@ -67,21 +76,10 @@ header {
     font-size: 24px;
 }
 
-.homepage-buttons {
+.homepage-content-buttons {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.button-login, .button-signup {
-    width: 112px;
-    height: 44px;
-    border-radius: 0.5rem;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
-    border: none;
-    cursor: pointer;
 }
 
 .button-login {
@@ -110,37 +108,27 @@ header {
     margin-left: 27px;
 }
 
+/* PERKS LIST */
+
 .list {
     list-style: none;
 }
 
-.perks-container {
-    display: flex;
-    justify-content: center;
-    margin: 52px 0;
-}
 
 .list-perks {
     color: var(--secondary);
     font-size: 20px;
 }
 
-.list-perks li {
-    margin-top: 24px;
-}
-
-.list-perks li:nth-child(1) {
-    margin-top: 0;
-}
-
 .list-perks-text {
-    margin-left: 22px;
+    margin-left: 20px;
 }
+
+/* MOVIES SECTION */
 
 .hp-movies {
     display: flex;
     flex-direction: column;
-
 }
 
 .hp-movies-container {
@@ -150,6 +138,10 @@ header {
     background: linear-gradient(90deg, rgba(57,57,57,0.64) 64%, rgba(19,19,19,1) 100%);
     justify-content: center;
     position: relative;
+}
+
+.hp-movies-newest-releases {
+    margin-top: 64px;
 }
 
 .hp-movies-indie {
@@ -188,10 +180,26 @@ header {
     border-radius: 4px;
 }
 
+.input-email {
+    min-width: 345px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #BABABA;
+    font-family: "Ubuntu", sans-serif;
+}
+#input-email {
+    width: 338px;
+}
+
+.hero-email-submit p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
 .email-submit {
     margin-top: 82px;
     margin-bottom: 82px;
-
 }
 
 .email-submit-text {
@@ -225,16 +233,6 @@ input[type=text] {
     font-weight: 300;
 }
 
-.input-email {
-    min-width: 345px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #BABABA;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 1rem;
-}
-
 input[type=submit] {
     width: 100px;
     height: 44px;
@@ -253,7 +251,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #FFD568;
 }
 
 .prod-companies {
@@ -269,14 +267,6 @@ input[type=submit]:hover {
     width: auto;
 }
 
-#header-login {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 64px;
-    background-color: var(--primary);
-    margin: 0;
-}
 
 .line-divider {
     background-color: #666666;
@@ -286,8 +276,6 @@ input[type=submit]:hover {
     justify-content: center;
     align-items: center;
 }
-
-
 
 .list-social-media {
     display: flex;
@@ -307,6 +295,7 @@ input[type=submit]:hover {
 .icon-facebook, .icon-twitter, .icon-insta {
     height: 40px;
     width: 40px;
+    cursor: pointer;
 }
 
 .list-footer-text {
@@ -324,6 +313,10 @@ input[type=submit]:hover {
 .list-footer-text a {
     text-decoration: none;
     color: #FFFFFF;
+}
+
+.list-footer-text a:hover {
+    color: #FFD568;
 }
 
 .footer-bottom {
@@ -363,14 +356,178 @@ input[type=submit]:hover {
     font-weight: 300;
 }
 
+footer {
+    background-color: #1C1C1C;
+    padding-top: 68px;
+}
+
+/* Extra Small (xs) */
+@media (min-width: 470px) {
+
+    .homepage-text {
+        max-width: 470px;
+    }
+    .homepage-hero {
+        background-image: url("../assets/images/homepage/homepage-hero-bg-mobile.png");
+    }
+
+    .header-homepage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button-login, .button-signup {
+        width: 112px;
+        height: 44px;
+        border-radius: 0.5rem;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        border: none;
+        cursor: pointer;
+    }
+
+    .homepage-hero-content {
+        height: 433px;
+    }
+
+    .header-homepage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .homepage-text {
+        max-width: 640px;
+        padding: 44px 28px 55px 28px;
+    }
+
+    .hero-email-submit {
+        display: none;
+    }
+
+    .homepage-header-buttons {
+        display: none;
+    }
+
+    .perks-container {
+        margin: 32px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .list-perks li {
+        margin-top: 24px;
+    }
+
+    .list-perks li:nth-child(1) {
+        margin-top: 0;
+    }
+
+
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+
+
+
+}
+
 /* Medium (md) */
 @media (min-width: 768px) {
-    /* Your styles for the medium breakpoint here */
+
+    .homepage-text {
+        max-width: 768px;
+    }
 }
 
 /* Large (lg) */
 @media (min-width: 1024px) {
-    /* Your styles for the large breakpoint here */
+
+ /*   HEADER */
+ .header-homepage {
+     display: flex;
+     justify-content: space-between;
+     padding: 0 68px;
+ }
+
+ .homepage-header-buttons {
+     display: flex;
+ }
+
+    /* HERO */
+    .homepage-hero-content {
+            height: 408px;
+    }
+
+    .homepage-hero {
+        background-image: url("../assets/images/homepage/homepage-hero-bg-desktop.png");
+    }
+
+    #homepage-subheading {
+        margin-bottom: -54px;
+    }                      
+
+    .homepage-text {
+        max-width: 1024px;
+        padding: 80px 16px 86px 16px;
+    }
+
+    .homepage-content-buttons {
+        display: none;
+    }
+
+    .button-login, .button-signup {
+        width: 88px;
+        height: 32px;
+        border-radius: 0.5rem;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        border: none;
+        cursor: pointer;
+    }
+
+    .hero-email-submit {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    /* PERKS LIST */
+
+    .perks-container {
+        display: flex;
+        margin: 44px 0;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .list-perks {
+        display: flex;
+        align-items: center;
+    }
+
+    .list-perks li:nth-child(1) {
+            margin-top: auto;
+           margin-left: 0;
+        }
+
+    .list-perks li {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-left: 210px;
+    }
+
+
+
+
+
+
 }
 
 /* Extra Large (xl) */
