@@ -133,11 +133,12 @@ body {
 
 .hp-movies-container {
     width: 100%;
-    height: 188px;
+    height: auto;
     background: rgb(19,19,19);
     background: linear-gradient(90deg, rgba(57,57,57,0.64) 64%, rgba(19,19,19,1) 100%);
     justify-content: center;
     position: relative;
+    text-align: left;
 }
 
 .hp-movies-newest-releases {
@@ -149,33 +150,27 @@ body {
     background: linear-gradient(90deg, rgba(19,19,19,1) 0%, rgba(57,57,57,0.64) 64%);
 }
 
-.hp-movies-heading {
-    font-size: 20px;
-    font-weight: 300;
-    margin-bottom: 14px;
-}
 
-.hp-movies-heading-left {
-    position: absolute;
-    top: 20px;
-    left: 50px;
-}
+/*.hp-movies-heading-left {*/
+/*    position: absolute;*/
+/*    top: 20px;*/
+/*    left: 50px;*/
+/*}*/
 
-.hp-movies-heading-right {
-    position: absolute;
-    top: 20px;
-    right: 50px;
-}
+/*.hp-movies-heading-right {*/
+/*    position: absolute;*/
+/*    top: 20px;*/
+/*    right: 50px;*/
+/*}*/
 
 .hp-movie-selection {
     display: flex;
     justify-content: center;
-    gap: 8px;
-    margin-top: 54px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .movie-card {
-    width: 80px;
     height: auto;
     border-radius: 4px;
 }
@@ -367,8 +362,10 @@ footer {
     .homepage-text {
         max-width: 470px;
     }
+
     .homepage-hero {
         background-image: url("../assets/images/homepage/homepage-hero-bg-mobile.png");
+        margin-bottom: 48px;
     }
 
     .header-homepage {
@@ -417,21 +414,45 @@ footer {
         justify-content: center;
     }
 
-
     .list-perks li {
         margin-top: 24px;
+
     }
 
     .list-perks li:nth-child(1) {
         margin-top: 0;
     }
 
+    .hp-movie-selection {
+        gap: 8px;
+    }
+
+    .movie-card {
+        width: 80px;
+    }
+
+    .hp-movies-heading {
+        font-size: 18px;
+        font-weight: 300;
+    }
 
 }
 
 /* Small (sm) */
 @media (min-width: 640px) {
 
+     .hp-movie-selection {
+         gap: 12px;
+     }
+
+     .movie-card {
+         width: 120px;
+     }
+
+     .hp-movies-heading { 
+         font-size: 22px;
+         font-weight: 300;
+     }                    
 
 
 }
@@ -442,6 +463,22 @@ footer {
     .homepage-text {
         max-width: 768px;
     }
+
+     .hp-movie-selection {
+         gap: 16px;
+     }
+
+     .movie-card {
+         width: 160px;
+     }
+
+     .hp-movies-heading {
+         font-size: 24px;
+         font-weight: 300;
+     }
+
+
+
 }
 
 /* Large (lg) */
@@ -521,21 +558,59 @@ footer {
      align-items: center;
      justify-content: center;
      margin-left: 210px;
+     margin-top: 0;
     }
 
+  /*  MOVIES SECTION */
 
+    .hp-movies-newest-releases {
+      margin-top: 48px;
+  }
 
+   .hp-movie-selection {
+       gap: 22px;
+   }
+                          
+   .movie-card {
+       width: 200px;
+   }
 
+   .hp-movies-heading {
+       font-size: 28px;
+       font-weight: 300;
+   }
 
 
 }
 
 /* Extra Large (xl) */
 @media (min-width: 1280px) {
-    /* Your styles for the extra large breakpoint here */
+
+    .hp-movie-selection {
+        gap: 32px;
+    }
+
+    .movie-card {
+        width: 300px;
+    }
+
+    .hp-movies-heading {
+        font-size: 30px;
+        font-weight: 300;
+    }
+
 }
 
 /* 2XL (2xl) */
 @media (min-width: 1536px) {
-    /* Your styles for the 2XL breakpoint here */
+
+    .hp-movies-heading {
+        font-size: 32px;
+        font-weight: 300;
+    }
+
+    .movie-card {
+        width: 350px;
+    }
+    
 }
