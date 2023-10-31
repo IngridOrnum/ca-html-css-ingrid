@@ -220,6 +220,10 @@ input[type=submit]:hover {
 }
 
 .prod-companies {
+    margin-bottom: 82px;
+}
+
+.prod-companies-upper, .prod-companies-lower {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -369,6 +373,12 @@ input[type=submit]:hover {
         font-size: 24px;
         font-weight: 300;
     }
+
+   /*.prod-companies {*/
+   /*    display: flex;*/
+   /*}*/
+
+
 
 
 

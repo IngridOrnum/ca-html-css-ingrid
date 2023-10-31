@@ -60,7 +60,6 @@
 .list-social-media {
     display: flex;
     gap: 54px;
-    margin: 82px 0;
 }
 
 .footer-logo {
@@ -166,7 +165,7 @@ footer {
     .list-social-media {
             justify-content: center;
             align-content: center;
-            padding-top: 82px;
+            padding: 82px 0;
         }
 
 }
