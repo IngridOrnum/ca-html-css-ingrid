@@ -1,0 +1,155 @@
+.nav-top {
+   margin: 20px 0 68px 16px;
+    color: #b3b3b3;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.categories-heading-and-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-see-all {
+    width: 124px;
+    height: 28px;
+    border-radius: 0.5rem;
+    background-color: var(--primary);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1px solid #959595;
+    font-family: "Ubuntu", sans-serif;
+    cursor: pointer;
+}
+
+.button-see-all:hover {
+    background-color: #434343;
+}
+
+
+.movie-categories-heading {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 2rem;
+    font-size: 1rem;
+}
+
+.movie-carousel {
+    width: auto;
+    height: 224px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    overflow: scroll;
+    position: relative;
+    display: flex;
+    gap: 1rem;
+}
+
+.carousel-movie-card {
+    scroll-margin: 10px;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.x-mandatory {
+    scroll-snap-type: x mandatory;
+}
+
+
+/* Below here just styles the container & elements so they look nice */
+.x-scroll .wrapper {
+    width: 1240px;
+}
+
+.x-scroll .element {
+    float: left;
+    margin-right: 10px;
+}
+
+.wrapper {
+    width: 620px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-gap: 10px;
+}
+
+.carousel-movie-card img {
+    width: 160px;
+    height: 224px;
+    border-radius: 0.5rem;
+}
+
+/* Extra Small (xs) */
+@media (min-width: 470px) {
+
+.section-movie-categories {
+        padding: 0.5rem 1rem 64px 1rem;
+    }
+
+
+    .button-padding {
+        padding-bottom: 0.5rem;
+        padding-top: 2rem;
+    }
+
+
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+
+    .section-movie-categories{
+        padding: 1rem 1rem 64px 1rem;
+    }
+
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+   .movie-categories-heading {
+       font-size: 18px;
+       padding-bottom: 1rem;
+   }
+
+    .movie-carousel {
+        gap: 20px;
+    }
+
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+    .movie-categories-heading {
+        font-size: 20px;
+    }
+
+    .movie-carousel {
+        gap: 28px;
+    }
+
+    .section-movie-categories{
+        padding: 24px 1rem 84px 1rem;
+    }
+
+}
+
+/* 2XL (2xl) */
+@media (min-width: 1536px) {
+    /* Your styles for the 2XL breakpoint here */
+}

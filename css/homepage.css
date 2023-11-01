@@ -1,0 +1,537 @@
+/* HEADER */
+
+.header-homepage {
+    background-color: var(--primary);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    height: 64px;
+    width: 100%;
+}
+
+.logo {
+    padding-top: 0.4rem;
+}
+
+/* HERO */
+
+.homepage-hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00000090;
+    margin-top: 83px;
+    position: absolute;
+    width: 100%;
+}
+
+.homepage-hero {
+    height: 612px;
+    width: 100%;
+}
+
+
+.homepage-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#homepage-header {
+    font-weight: 700;
+    line-height: 45px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#homepage-subheading {
+    font-weight: 300;
+    line-height: 40px;
+    font-size: 24px;
+}
+
+.homepage-content-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-login {
+    background-color: #7B7B7B;
+    color: #D3D3D3;
+}
+
+.button-login:hover {
+    background-color: #ADADAD;
+}
+
+.button-signup {
+    background-color: var(--secondary);
+    color: var(--primary);
+    margin-left: 27px;
+}
+
+.button-signup:hover {
+    background-color: #FFD568;
+}
+
+#or {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    margin-left: 27px;
+}
+
+/* PERKS LIST */
+
+.list {
+    list-style: none;
+}
+
+
+.list-perks {
+    color: var(--secondary);
+    font-size: 20px;
+}
+
+.list-perks-text {
+    margin-left: 20px;
+}
+
+/* MOVIES SECTION */
+
+.hp-movies {
+    display: flex;
+    flex-direction: column;
+}
+
+.hp-movies-container {
+    padding: 0 42px;
+    height: auto;
+    background: rgb(19,19,19);
+    background: linear-gradient(90deg, rgba(57,57,57,0.64) 64%, rgba(19,19,19,1) 100%);
+    justify-content: center;
+    position: relative;
+    text-align: left;
+}
+
+.hp-movies-newest-releases {
+    margin-top: 64px;
+}
+
+.hp-movies-indie {
+    background: rgb(57,57,57);
+    background: linear-gradient(90deg, rgba(19,19,19,1) 0%, rgba(57,57,57,0.64) 64%);
+    text-align: right;
+}
+
+.hp-movie-selection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.hp-movies-heading {
+    padding-top: 24px;
+}
+
+.movie-card {
+    height: auto;
+    border-radius: 4px;
+}
+
+.input-email {
+    min-width: 345px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #BABABA;
+    font-family: "Ubuntu", sans-serif;
+}
+#input-email {
+    width: 338px;
+}
+
+.hero-email-submit p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.email-submit {
+    margin-top: 82px;
+    margin-bottom: 82px;
+}
+
+.email-submit-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#email-submit-header {
+    font-size: 30px;
+    line-height: 20px;
+    margin-bottom: 1.5rem;
+}
+
+#email-submit-subheading {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+
+input[type=text] {
+    width: 234px;
+    height: 44px;
+    padding-left: 20px;
+    border: 2px solid #353535;
+    background-color: #282828;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+input[type=submit] {
+    width: 100px;
+    height: 44px;
+    background-color: var(--secondary);
+    color: #000000;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=submit]:hover {
+    background-color: #FFD568;
+}
+
+/* PRODUCTION COMPANIES */
+
+.prod-companies {
+    padding-bottom: 82px;
+}
+
+.icons-prod-companies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 16px;
+    gap: 0.5rem;
+}
+
+.svg-prod-comp {
+    height: 42px;
+    width: auto;
+}
+
+
+.line-divider {
+    background-color: #666666;
+    height: 1px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Extra Small (xs) */
+@media (min-width: 470px) {
+
+    .homepage-text {
+        max-width: 470px;
+    }
+
+    .homepage-hero {
+        background-image: url("../assets/images/homepage/homepage-hero-bg-mobile.png");
+        margin-bottom: 48px;
+    }
+
+    .header-homepage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button-login, .button-signup {
+        width: 112px;
+        height: 44px;
+        border-radius: 0.5rem;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        border: none;
+        cursor: pointer;
+    }
+
+    .homepage-hero-content {
+        height: 433px;
+    }
+
+    .header-homepage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .homepage-text {
+        max-width: 640px;
+        padding: 44px 28px 55px 28px;
+    }
+
+    .hero-email-submit {
+        display: none;
+    }
+
+    .homepage-header-buttons {
+        display: none;
+    }
+
+    .perks-container {
+        margin: 32px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .list-perks li {
+        margin-top: 24px;
+
+    }
+
+    .list-perks li:nth-child(1) {
+        margin-top: 0;
+    }
+
+    .hp-movie-selection {
+        gap: 8px;
+    }
+
+    .movie-card {
+        width: 80px;
+    }
+
+    .hp-movies-heading {
+        font-size: 18px;
+        font-weight: 300;
+        padding-top: 18px
+    }
+
+
+
+
+
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+
+    .hp-movie-selection {
+        gap: 12px;
+    }
+
+    .movie-card {
+        width: 120px;
+    }
+
+    .hp-movies-heading {
+        font-size: 22px;
+        font-weight: 300;
+    }
+
+
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+
+    .homepage-text {
+        max-width: 768px;
+    }
+
+    .hp-movie-selection {
+        gap: 16px;
+    }
+
+    .movie-card {
+        width: 160px;
+    }
+
+    .hp-movies-heading {
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    .icons-prod-companies {
+    gap: 12px;
+}
+
+.svg-prod-comp {
+    height: 42px;
+    width: auto;
+}
+
+
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+
+    /*   HEADER */
+    .header-homepage {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 68px;
+    }
+
+    .homepage-header-buttons {
+        display: flex;
+    }
+
+    /* HERO */
+    .homepage-hero-content {
+        height: 408px;
+    }
+
+    .homepage-hero {
+        background-image: url("../assets/images/homepage/homepage-hero-bg-desktop.png");
+    }
+
+    #homepage-subheading {
+        margin-bottom: -54px;
+    }
+
+    .homepage-text {
+        max-width: 1024px;
+        padding: 80px 16px 86px 16px;
+    }
+
+    .homepage-content-buttons {
+        display: none;
+    }
+
+    .button-login, .button-signup {
+        width: 88px;
+        height: 32px;
+        border-radius: 0.5rem;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        border: none;
+        cursor: pointer;
+    }
+
+    .hero-email-submit {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    /* PERKS LIST */
+
+    .perks-container {
+        display: flex;
+        margin: 44px 0;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .list-perks {
+        display: flex;
+        align-items: center;
+    }
+
+    .list-perks li:nth-child(1) {
+        margin-top: auto;
+        margin-left: 0;
+    }
+
+    .list-perks li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 210px;
+        margin-top: 0;
+    }
+
+    /*  MOVIES SECTION */
+
+    .hp-movies-newest-releases {
+        margin-top: 48px;
+    }
+
+    .hp-movie-selection {
+        gap: 22px;
+    }
+
+    .movie-card {
+        width: 200px;
+    }
+
+    .hp-movies-heading {
+        font-size: 28px;
+        font-weight: 300;
+    }
+
+    .icons-prod-companies {
+        gap: 1rem;
+    }
+
+    .svg-prod-comp {
+        height: 62px;
+        width: auto;
+    }
+
+
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+
+    .hp-movie-selection {
+        gap: 32px;
+    }
+
+    .movie-card {
+        width: 300px;
+    }
+
+    .hp-movies-heading {
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    .icons-prod-companies {
+        gap: 44px;
+    }
+
+}
+
+/* 2XL (2xl) */
+@media (min-width: 1536px) {
+
+    .hp-movies-heading {
+        font-size: 32px;
+        font-weight: 300;
+    }
+
+    .movie-card {
+        width: 350px;
+    }
+
+}
