@@ -219,16 +219,19 @@ input[type=submit]:hover {
     background-color: #FFD568;
 }
 
+/* PRODUCTION COMPANIES */
+
 .prod-companies {
-    margin-bottom: 82px;
+    padding-bottom: 82px;
 }
 
-.prod-companies-upper, .prod-companies-lower {
+.icons-prod-companies {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 28px 0;
-    gap: 4px;
+    margin: 32px 16px;
+    gap: 0.5rem;
 }
 
 .svg-prod-comp {
@@ -374,13 +377,14 @@ input[type=submit]:hover {
         font-weight: 300;
     }
 
-   /*.prod-companies {*/
-   /*    display: flex;*/
-   /*}*/
+    .icons-prod-companies {
+    gap: 12px;
+}
 
-
-
-
+.svg-prod-comp {
+    height: 42px;
+    width: auto;
+}
 
 
 }
@@ -484,6 +488,15 @@ input[type=submit]:hover {
         font-weight: 300;
     }
 
+    .icons-prod-companies {
+        gap: 1rem;
+    }
+
+    .svg-prod-comp {
+        height: 62px;
+        width: auto;
+    }
+
 
 }
 
@@ -501,6 +514,10 @@ input[type=submit]:hover {
     .hp-movies-heading {
         font-size: 30px;
         font-weight: 300;
+    }
+
+    .icons-prod-companies {
+        gap: 44px;
     }
 
 }
