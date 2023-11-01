@@ -53,6 +53,11 @@
  }
 
 /* FOOTER */
+
+.list {
+    list-style: none;
+}
+
 .footer-homepage {
     padding: 0 5%;
 }
@@ -136,6 +141,15 @@
 footer {
     background-color: #1C1C1C;
     padding-top: 68px;
+}
+
+.line-divider {
+    background-color: #666666;
+    height: 1px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
