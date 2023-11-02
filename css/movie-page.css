@@ -1,5 +1,146 @@
+.button-back-movie-page {
+    background-color: #FFB80040;
+    border-radius: .5rem;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    border-style: none;
+    height: 27px;
+    width: 83px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-back-movie-page-text {
+    text-decoration: none;
+    color: #000000;
+}
+
+#left-arrow {
+    padding-top: 4px;
+}
+
+.button-back-movie-page:hover {
+    background-color: var(--secondary);
+}
+
+.movie-page-heading-and-cover {
+    display: flex;
+    justify-content: space-between;
+}
+
+#dd-heading {
+    font-weight: 400;
+}
+
+.movie-details {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding-top: 22px;
+    padding-bottom: 28px;
+    font-weight: 300;
+}
+
+.imbd-rating {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.movie-description {
+    font-weight: 300;
+    line-height: 180%;
+    margin-bottom: 42px;
+}
+
+#movie-page-carousel-heading {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.movie-page-carousel {
+    padding-bottom: 62px;
+}
+
+
 /* Extra Small (xs) */
 @media (min-width: 470px) {
+
+    .main-movie-page {
+        margin: 0 16px;
+    }
+
+    .movie-section {
+         margin-top: 72px;
+        margin-bottom: 42px;
+     }
+
+    .movie-page-bg-img {
+        background-image: url("../assets/images/moviepage/dungeons-and-dragons-mobile.png");
+        background-size: 100%;
+        height: 500px;
+        width: 100%;
+        z-index: -1;
+        position: absolute;
+        background-repeat: no-repeat;
+    }
+
+    #dd-heading {
+        margin-top: 102px;
+        width: 254px;
+    }
+
+    #img-cover {
+        width: 116px;
+        height: 155px;
+        border-radius: 8px;
+    }
+
+    #button-more-mobile {
+        width: 58px;
+        height: 23px;
+        background-color: var(--primary);
+        border-radius: 4px;
+        border: 1px solid #959595;
+        color: #BABABA;
+        margin-left: 0.5rem;
+        cursor: pointer;
+    }
+
+    #button-more-mobile:hover {
+        background-color: #FFFFFF50;
+        color: #ffffff;
+        border: none;
+    }
+
+    .buttons-action-moviepage {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .button-buy, .button-trailer, .button-watchlist {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        border-radius: 8px;
+        height: 64px;
+        font-size: 24px;
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 400;
+        border: none;
+    }
+
+    .button-buy {
+        background-color: var(--secondary);
+    }
+
+    .button-watchlist, .button-trailer {
+        background-color: #FFE194;
+    }
+
+
 
 }
 
