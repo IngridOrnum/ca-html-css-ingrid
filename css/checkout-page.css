@@ -1,0 +1,67 @@
+
+.checkout-main {
+    margin: 0 16px;
+}
+
+
+/* Extra Small (xs) */
+@media (min-width: 470px) {
+
+.movie-title {
+    font-size: 28px;
+    text-align: left;
+}
+
+.movie-details {
+
+}
+
+.checkout-movie-cover-checkout-text {
+    display: flex;
+    gap: 1rem;
+}
+
+#movie-cover {
+    width: 126px;
+    height: 174px;
+}
+
+.checkout-text {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.checkout-bold-text {
+    font-weight: 400;
+}
+
+.checkout-audio {
+    margin-bottom: 8px;
+}
+
+
+}
+
+
+/* Small (sm) */
+@media (min-width: 640px) {
+
+
+}
+
+
+/* Medium (md) */
+@media (min-width: 768px) {
+
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+
+}
