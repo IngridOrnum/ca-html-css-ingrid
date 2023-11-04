@@ -228,6 +228,10 @@ footer {
               flex-direction: row;
               justify-content: space-between;
         }
+    .list-footer-text {
+        margin-bottom: 42px;
+    }
+
        } 
 
 /* Large (lg) */
@@ -273,6 +277,7 @@ footer {
     justify-content: center;
     gap: 0.5rem;
 }
+
 
 }
 
