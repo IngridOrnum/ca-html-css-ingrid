@@ -200,7 +200,7 @@ input[type=text] {
     font-weight: 300;
 }
 
-input[type=submit] {
+.button-join-now {
     width: 100px;
     height: 44px;
     background-color: var(--secondary);
@@ -217,7 +217,7 @@ input[type=submit] {
     justify-content: center;
 }
 
-input[type=submit]:hover {
+.button-join-now:hover {
     background-color: #FFD568;
 }
 
