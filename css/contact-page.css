@@ -1,0 +1,126 @@
+/* Extra Small (xs) */
+@media (min-width: 470px) {
+
+
+.top-nav {
+    color: #b3b3b3;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    display: flex;
+    gap: .5rem;
+    margin: .5rem 1rem;
+    cursor: pointer;
+}
+
+    .sections-faq-and-form {
+        margin: 64px 64px;
+    }
+
+    .line-divider-header {
+        width: 3px;
+        height: 40px;
+    }
+
+    .faq-section, .contact-form-section {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .heading-faq, .heading-contact-form {
+        display: flex;
+        gap: .5rem;
+        font-size: 40px;
+        align-items: center;
+        margin-bottom: 24px;
+    }
+
+    .faq-list {
+        font-weight: 300;
+        font-size: 18px;
+    }
+
+    .faq-list a {
+        cursor: pointer;
+    }
+
+    .faq-line-divider {
+        width: 170px;
+        height: 1px;
+        background-color: #666666;
+        margin: 20px 0;
+    }
+
+    .contact-form-section {
+        margin-top: 84px;
+    }
+
+    .contact-form-section-text {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 28px;
+    }
+
+    #full-name, #email, #text-area {
+        border-radius: .5rem;
+        width: 340px;
+        font-weight: 300;
+        font-size: 1rem;
+        font-family: "Ubuntu", sans-serif;
+        padding: 10px 14px;
+    }
+
+
+    .contact-form-colum {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+
+
+
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+
+    .sections-faq-and-form {
+        margin: 84px 24px;
+        display: flex;
+        justify-content: center;
+        gap: 84px;
+    }
+
+    .contact-form-section {
+        margin: 0;
+    }
+
+
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+
+    .sections-faq-and-form {
+        gap: 104px;
+    }
+
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+
+    .sections-faq-and-form {
+        gap: 184px;
+    }
+
+}
+
+/* 2XL (2xl) */
+@media (min-width: 1536px) {
+    /* Your styles for the 2XL breakpoint here */
+}
