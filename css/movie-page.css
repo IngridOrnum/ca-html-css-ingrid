@@ -2,46 +2,22 @@
     margin: 0 16px;
 }
 
-.button-back-movie-page {
-    background-color: #FFB80040;
-    border-radius: .5rem;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 16px;
-    border-style: none;
-    height: 27px;
-    width: 83px;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.button-back-movie-page-text {
-    text-decoration: none;
-    color: #000000;
-}
-
-#left-arrow {
-    padding-top: 4px;
-}
-
-.button-back-movie-page:hover {
-    background-color: var(--secondary);
-}
 
 
 #dd-heading {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 400;
     align-self: flex-end;
-    margin-top: 142px;
+    margin-top: 162px;
 }
 
 #img-cover-mobile {
     width: 116px;
-    height: 155px;
+    height: auto;
     border-radius: 8px;
     position: absolute;
     right: 16px;
-    top: 186px;
+    top: 156px;
 }
 
 #img-cover-desktop {
@@ -82,8 +58,6 @@
 /* Extra Small (xs) */
 @media (min-width: 470px) {
 
-
-
     .movie-section {
         margin-top: 72px;
         margin-bottom: 42px;
@@ -97,10 +71,11 @@
         z-index: -1;
         position: absolute;
         background-repeat: no-repeat;
+        top: 76px;
     }
 
     #dd-heading {
-        width: 254px;
+        width: 284px;
     }
 
 
@@ -182,7 +157,7 @@
     }
 
     #dd-heading {
-        margin-top: 88px;
+        margin-top: 120px;
     }
 
     .movie-description {
@@ -216,7 +191,7 @@
 
     #img-cover-desktop {
         display: flex;
-        height: 248px;
+        height: auto;
         width: 185px;
         margin-bottom: 10px;
         border-radius: .5rem;
@@ -254,10 +229,11 @@
 
     .grid-container-directors-actors-etc {
         margin-bottom: 88px;
+        padding: 0;
     }
 
     #dd-heading {
-        margin-top: 144px;
+        margin-top: 180px;
         padding: 0;
         font-size: 26px;
     }
@@ -285,7 +261,7 @@
 
 
         #img-cover-desktop {
-            height: 295px;
+            height: auto;
             width: 220px;
         }
 
@@ -306,7 +282,7 @@
 
         #dd-heading {
             font-size: 32px;
-            margin-top: 168px;
+            margin-top: 224px;
             width: 662px;
         }
 
@@ -327,7 +303,7 @@
         }
 
         #dd-heading {
-            margin-top: 220px;
+            margin-top: 298px;
         }
 
         .movie-description {
@@ -335,7 +311,7 @@
         }
 
         #img-cover-desktop {
-            height: 361px;
+            height: auto;
             width: 269px;
             margin-right: 62px;
             margin-top: 86px;
@@ -374,7 +350,7 @@
         }
 
         #img-cover-desktop {
-            height: 500px;
+            height: auto;
             width: 360px;
             margin-right: 144px;
             margin-top: 86px;

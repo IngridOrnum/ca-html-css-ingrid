@@ -20,6 +20,10 @@
    cursor: pointer;
  }
 
+.dropdown-btn:hover {
+    color: var(--secondary);
+}
+
  .dropdown-menu {
    position: relative;
    display: inline-block;
@@ -308,11 +312,11 @@ footer {
     color: #FFFFFF;
 }
 
-.nav-links li, .header-search-desktop, .header-account-desktop {
+.nav-text, .header-search-desktop, .header-account-desktop {
   cursor: pointer;   
 }
 
-.nav-links li:hover, .header-search-desktop:hover, .header-account-desktop:hover {
+.nav-text:hover, .header-search-desktop:hover, .header-account-desktop:hover {
   color: var(--secondary)
 }
 
