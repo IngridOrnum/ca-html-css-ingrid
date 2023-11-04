@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Square Eyes</title>
+  <title>Square Eyes - Home</title>
   <link rel="stylesheet" type="text/css" href="css/homepage.css"/>
   <link href="css/styles.css" rel="stylesheet" type="text/css"/>
   <link rel="stylesheet" type="text/css" href="css/footer-and-header.css"/>
@@ -17,12 +17,12 @@
       </svg>
     </a>
     <div class="homepage-header-buttons">
-      <a href="#">
-        <button class="button-login">Login</button>
-      </a>
-      <a href="#">
-        <button class="button-signup">Sign Up</button>
-      </a>
+      <form action="categories-page.html">
+        <button class="button-login" type="submit">Login</button>
+      </form>
+      <form action="categories-page.html">
+        <button class="button-signup" type="submit">Sign Up</button>
+      </form>
     </div>
   </header>
   
@@ -34,20 +34,24 @@
         <p id="homepage-subheading">Pay only for what you achually want to see.</p>
       </div>
       <div class="homepage-content-buttons">
-        <a href="#">
-          <button class="button-login">Login</button>
-        </a>
+        <form action="categories-page.html">
+          <button class="button-login" type="submit">Login</button>
+        </form>
         <span id="or">or</span>
-        <a href="#">
-          <button class="button-signup">Sign Up</button>
-        </a>
+        <form action="categories-page.html">
+          <button class="button-signup" type="submit">Sign Up</button>
+        </form>
       </div>
         <div class="hero-email-submit">
           <p>Start exploring by signing up with your e-mail below</p>
-          <form class="input-email">
+          <div class="input-email">
+          <form>
             <input type="text" id="input-email" name="email" placeholder="E-mail"/>
-            <input type="submit" value="Join now"/>
           </form>
+          <form action="categories-page.html">
+            <button class="button-join-now" type="submit">Join Now</button>
+          </form>
+          </div>
         </div>
       </div>
       </div>
@@ -116,10 +120,15 @@
     <span id="email-submit-header">And much, much more.</span>
     <span id="email-submit-subheading">So, what are you waiting for?</span>
     </div>
-    <form class="input-email">
+    
+      <div class="input-email">
+        <form>
       <input type="text" id="email" name="email" placeholder="E-mail">
-      <input type="submit" value="Join now">
     </form>
+      <form action="categories-page.html">
+        <button class="button-join-now" type="submit">Join Now</button>
+      </form>
+      </div>
     </section>
     
     <!--        PRODUCTION COMPANIES -->
@@ -186,8 +195,8 @@
         </span>
     </div>
     <ul class="list list-footer-text">
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">About</a></li>
+      <li><a href="contact-page.html">Contact</a></li>
+      <li><a href="about-us.html">About</a></li>
       <li><a href="#">Terms of Service</a></li>
       <li><a href="#">Cookie Preferences</a></li>
       <li><a href="#">Privacy</a></li>

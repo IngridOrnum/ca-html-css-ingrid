@@ -28,7 +28,8 @@
     padding: 38px 0;
 }
 
-    .line-divider-header {
+    .line-divider-heading {
+        background-color: var(--secondary);
         height: 32px;
         width: 4px;
     }

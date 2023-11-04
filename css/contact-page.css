@@ -17,9 +17,10 @@
         margin: 64px 64px;
     }
 
-    .line-divider-header {
-        width: 3px;
+    .line-divider-heading {
+        background-color: var(--secondary);
         height: 40px;
+        width: 4px;
     }
 
     .faq-section, .contact-form-section {
