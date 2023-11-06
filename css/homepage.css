@@ -1,6 +1,5 @@
+
 /* HEADER */
-
-
 
 .header-homepage {
     background-color: var(--primary);
@@ -221,7 +220,7 @@ input[type=text] {
     background-color: #FFD568;
 }
 
-/* PRODUCTION COMPANIES */
+/* PRODUCTION COMPANIES IMAGES */
 
 .prod-companies {
     padding-bottom: 82px;
@@ -242,13 +241,14 @@ input[type=text] {
 }
 
 
-.line-divider {
+.line-divider-homepage {
     background-color: #666666;
     height: 1px;
     width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 6%;
 }
 
 
@@ -335,9 +335,6 @@ input[type=text] {
     }
 
 
-
-
-
 }
 
 /* Small (sm) */
@@ -355,7 +352,6 @@ input[type=text] {
         font-size: 22px;
         font-weight: 300;
     }
-
 
 }
 
@@ -387,7 +383,6 @@ input[type=text] {
     height: 42px;
     width: auto;
 }
-
 
 }
 
@@ -488,6 +483,7 @@ input[type=text] {
     .hp-movies-heading {
         font-size: 28px;
         font-weight: 300;
+        padding-top: 42px;
     }
 
     .icons-prod-companies {
@@ -528,8 +524,9 @@ input[type=text] {
 @media (min-width: 1536px) {
 
     .hp-movies-heading {
-        font-size: 32px;
+        font-size: 36px;
         font-weight: 300;
+        padding-top: 68px;
     }
 
     .movie-card {

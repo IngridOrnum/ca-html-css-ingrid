@@ -1,8 +1,7 @@
+
 .main-movie-page {
     margin: 0 16px;
 }
-
-
 
 #dd-heading {
     font-size: 26px;
@@ -78,7 +77,6 @@
         width: 284px;
     }
 
-
     #button-more-mobile {
         width: 58px;
         height: 23px;
@@ -124,6 +122,10 @@
         background-color: var(--secondary);
     }
 
+    .button-buy:hover, .button-watchlist:hover, .button-trailer:hover {
+        background-color: #FFD568;
+    }
+
     .button-watchlist, .button-trailer {
         background-color: #FFE194;
     }
@@ -131,7 +133,6 @@
     .buttons-action-moviepage-desktop {
         display: none;
     }
-
 
 }
 
@@ -164,7 +165,6 @@
         margin-bottom: 1rem;
         width: 400px;
     }
-
 
     .grid-container-directors-actors-etc {
         display: grid;
@@ -238,7 +238,6 @@
         font-size: 26px;
     }
 
-
 }
 
 @media (min-width: 882px) {
@@ -259,7 +258,6 @@
     /* Large (lg) */
     @media (min-width: 1024px) {
 
-
         #img-cover-desktop {
             height: auto;
             width: 220px;
@@ -279,7 +277,6 @@
             padding: 0;
         }
 
-
         #dd-heading {
             font-size: 32px;
             margin-top: 224px;
@@ -290,8 +287,6 @@
             font-size: 14px;
             width: 622px;
         }
-
-
 
     }
 
@@ -320,9 +315,6 @@
         .buttons-action-moviepage-desktop {
             width: 269px;
         }
-
-
-
 
     }
 
@@ -362,6 +354,10 @@
 
         .grid-item {
             font-size: 1rem;
+        }
+
+        .grid-container-directors-actors-etc {
+            margin-bottom: 180px;
         }
 
     }

@@ -31,7 +31,7 @@
     .heading-faq, .heading-contact-form {
         display: flex;
         gap: .5rem;
-        font-size: 40px;
+        font-size: 34px;
         align-items: center;
         margin-bottom: 24px;
     }
@@ -99,7 +99,6 @@
     .contact-form-section {
         margin: 0;
     }
-
 
 }
 
