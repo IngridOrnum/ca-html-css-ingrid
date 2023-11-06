@@ -10,4 +10,15 @@ Ingrid Ornum
 
 GitHub account: IngridOrnum
 
+#inspiration
 
+Coding inspiration:
+
+- https://css-tricks.com/
+- https://www.w3schools.com/
+- https://developer.mozilla.org/en-US/
+
+Design inspiration:
+- netflix.com
+- spotify.com
+- https://www.sfanytime.com/no/lists/filmer
