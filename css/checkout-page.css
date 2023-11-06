@@ -34,46 +34,45 @@
     width: 242px;
 }
 
-
 /* Extra Small (xs) */
 @media (min-width: 470px) {
 
-.checkout-movie-info {
-    margin-top: 24px;
-    margin-bottom: 40px;
+    .checkout-movie-info {
+        margin-top: 24px;
+        margin-bottom: 40px;
     }
 
-.movie-title {
-    font-size: 28px;
-    text-align: left;
-    width: 300px;
-    padding-top: 42px;
-}
+    .movie-title {
+        font-size: 28px;
+        text-align: left;
+        width: 300px;
+        padding-top: 42px;
+    }
 
-.checkout-movie-cover-checkout-text {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 2rem;
-    width: 380px;
-}
+    .checkout-movie-cover-checkout-text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+        width: 380px;
+    }
 
-#movie-cover {
-    width: auto;
-    height: 174px;
-    border-radius: 8px;
-}
+    #movie-cover {
+        width: auto;
+        height: 174px;
+        border-radius: 8px;
+    }
 
-.checkout-text {
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 28px;
-    width: 184px;
-}
+    .checkout-text {
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 28px;
+        width: 184px;
+    }
 
-.checkout-audio {
-    padding-bottom: 1rem;
-}
+    .checkout-audio {
+        padding-bottom: 1rem;
+    }
 
     .form-payment {
         width: 330px;
@@ -123,7 +122,6 @@
         justify-content: space-between;
     }
 
-
     button[type=submit] {
         background-color: var(--secondary);
         color: #000000;
@@ -139,19 +137,11 @@
     button[type=submit]:hover {
         background-color: #FFD568;
     }
-
-
-
 }
-
 
 /* Small (sm) */
 @media (min-width: 640px) {
-
-
-
 }
-
 
 /* Medium (md) */
 @media (min-width: 768px) {
@@ -198,14 +188,12 @@
     .checkout-movie-cover-checkout-text {
         gap: 1rem;
     }
-
 }
 
 @media (min-width: 882px) {
     .button-back-page {
         left: 56px;
     }
-
 }
 
 /* Large (lg) */
@@ -224,8 +212,8 @@
     }
 
     .checkout-main {
-      justify-content: space-between;
-       margin: 88px 8%;
+        justify-content: space-between;
+        margin: 88px 8%;
     }
 
     #movie-cover {
@@ -239,11 +227,10 @@
     }
 
     .checkout-movie-cover-checkout-text {
-       margin-top: 2rem;
-       width: 500px;
-       align-items: flex-start;
+        margin-top: 2rem;
+        width: 500px;
+        align-items: flex-start;
     }
-
 }
 
 /* Extra Large (xl) */
@@ -265,7 +252,6 @@
         width: auto;
         height: 270px;
     }
-
 }
 
 

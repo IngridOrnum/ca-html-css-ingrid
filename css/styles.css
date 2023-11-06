@@ -45,7 +45,7 @@ body {
     background-color: var(--secondary);
 }
 
-.nav-top {
+.breadcrumbs {
     margin: 20px 0 28px 16px;
     color: #b3b3b3;
     font-size: 14px;
@@ -54,7 +54,7 @@ body {
     gap: 8px;
 }
 
-.nav-top a {
+.breadcrumbs a {
     text-decoration: none;
     color: #b3b3b3;
 }

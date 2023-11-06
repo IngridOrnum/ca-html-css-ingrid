@@ -240,7 +240,6 @@ input[type=text] {
     width: auto;
 }
 
-
 .line-divider-homepage {
     background-color: #666666;
     height: 1px;
@@ -250,8 +249,6 @@ input[type=text] {
     align-items: center;
     margin: 0 6%;
 }
-
-
 
 /* Extra Small (xs) */
 @media (min-width: 470px) {
@@ -333,8 +330,6 @@ input[type=text] {
         font-weight: 300;
         padding-top: 18px
     }
-
-
 }
 
 /* Small (sm) */
@@ -352,7 +347,6 @@ input[type=text] {
         font-size: 22px;
         font-weight: 300;
     }
-
 }
 
 /* Medium (md) */
@@ -376,14 +370,13 @@ input[type=text] {
     }
 
     .icons-prod-companies {
-    gap: 12px;
-}
+        gap: 12px;
+    }
 
-.svg-prod-comp {
-    height: 42px;
-    width: auto;
-}
-
+    .svg-prod-comp {
+        height: 42px;
+        width: auto;
+    }
 }
 
 /* Large (lg) */
@@ -440,7 +433,6 @@ input[type=text] {
     }
 
     /* PERKS LIST */
-
     .perks-container {
         display: flex;
         margin: 44px 0;
@@ -467,7 +459,6 @@ input[type=text] {
     }
 
     /*  MOVIES SECTION */
-
     .hp-movies-newest-releases {
         margin-top: 48px;
     }
@@ -494,8 +485,6 @@ input[type=text] {
         height: 62px;
         width: auto;
     }
-
-
 }
 
 /* Extra Large (xl) */
@@ -517,7 +506,6 @@ input[type=text] {
     .icons-prod-companies {
         gap: 44px;
     }
-
 }
 
 /* 2XL (2xl) */
@@ -532,5 +520,4 @@ input[type=text] {
     .movie-card {
         width: 350px;
     }
-
 }

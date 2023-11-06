@@ -1,17 +1,15 @@
 /* Extra Small (xs) */
 @media (min-width: 470px) {
-
-
-.top-nav {
-    color: #b3b3b3;
-    font-size: 14px;
-    font-weight: 300;
-    text-decoration: none;
-    display: flex;
-    gap: .5rem;
-    margin: .5rem 1rem;
-    cursor: pointer;
-}
+    .top-nav {
+        color: #b3b3b3;
+        font-size: 14px;
+        font-weight: 300;
+        text-decoration: none;
+        display: flex;
+        gap: .5rem;
+        margin: .5rem 1rem;
+        cursor: pointer;
+    }
 
     .sections-faq-and-form {
         margin: 64px 64px;
@@ -24,8 +22,8 @@
     }
 
     .faq-section, .contact-form-section {
-    display: flex;
-    flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
 
     .heading-faq, .heading-contact-form {
@@ -71,15 +69,10 @@
         padding: 10px 14px;
     }
 
-
     .contact-form-colum {
         margin-bottom: 1rem;
         margin-top: 1rem;
     }
-
-
-
-
 }
 
 /* Small (sm) */
@@ -99,7 +92,6 @@
     .contact-form-section {
         margin: 0;
     }
-
 }
 
 /* Large (lg) */
@@ -112,7 +104,6 @@
     .nav-top {
         margin-left: 24px;
     }
-
 }
 
 /* Extra Large (xl) */
@@ -121,7 +112,6 @@
     .sections-faq-and-form {
         gap: 184px;
     }
-
 }
 
 /* 2XL (2xl) */

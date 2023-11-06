@@ -1,66 +1,14 @@
-
-.main-movie-page {
-    margin: 0 16px;
-}
-
-#dd-heading {
-    font-size: 26px;
-    font-weight: 400;
-    align-self: flex-end;
-    margin-top: 162px;
-}
-
-#img-cover-mobile {
-    width: 116px;
-    height: auto;
-    border-radius: 8px;
-    position: absolute;
-    right: 16px;
-    top: 156px;
-}
-
-#img-cover-desktop {
-    display: none;
-}
-
-.movie-details {
-    display: flex;
-    align-items: center;
-    gap: 18px;
-    padding-top: 22px;
-    padding-bottom: 28px;
-    font-weight: 300;
-}
-
-.imbd-rating {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-.movie-description {
-    font-weight: 300;
-    line-height: 180%;
-    margin-bottom: 42px;
-}
-
-#movie-page-carousel-heading {
-    font-size: 18px;
-    font-weight: 300;
-}
-
-.movie-page-carousel {
-    padding-bottom: 62px;
-}
-
-
 /* Extra Small (xs) */
 @media (min-width: 470px) {
+
+    .main-movie-page {
+        margin: 0 16px;
+    }
 
     .movie-section {
         margin-top: 72px;
         margin-bottom: 42px;
-     }
+    }
 
     .movie-page-bg-img {
         background-image: url("../assets/images/moviepage/dungeons-and-dragons-mobile.png");
@@ -73,7 +21,54 @@
         top: 76px;
     }
 
+    #img-cover-mobile {
+        width: 116px;
+        height: auto;
+        border-radius: 8px;
+        position: absolute;
+        right: 16px;
+        top: 156px;
+    }
+
+    #img-cover-desktop {
+        display: none;
+    }
+
+    .movie-details {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        padding-top: 22px;
+        padding-bottom: 28px;
+        font-weight: 300;
+    }
+
+    .imbd-rating {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .movie-description {
+        font-weight: 300;
+        line-height: 180%;
+        margin-bottom: 42px;
+    }
+
+    #movie-page-carousel-heading {
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .movie-page-carousel {
+        padding-bottom: 62px;
+    }
+
     #dd-heading {
+        font-size: 26px;
+        font-weight: 400;
+        align-self: flex-end;
+        margin-top: 162px;
         width: 284px;
     }
 
@@ -133,14 +128,13 @@
     .buttons-action-moviepage-desktop {
         display: none;
     }
-
 }
 
 /* Small (sm) */
 @media (min-width: 640px) {
 
     .movie-section {
-    margin-bottom: 0;
+        margin-bottom: 0;
     }
 
     .movie-page-bg-img {
@@ -216,7 +210,6 @@
         right: 1rem;
         top: 150px;
     }
-
 }
 
 /* Medium (md) */
@@ -237,7 +230,6 @@
         padding: 0;
         font-size: 26px;
     }
-
 }
 
 @media (min-width: 882px) {
@@ -253,112 +245,109 @@
     .buttons-action-moviepage-desktop {
         width: 185px;
 
+    }
 }
 
-    /* Large (lg) */
-    @media (min-width: 1024px) {
+/* Large (lg) */
+@media (min-width: 1024px) {
 
-        #img-cover-desktop {
-            height: auto;
-            width: 220px;
-        }
-
-        .buttons-action-moviepage-desktop {
-            width: 220px;
-        }
-
-        .movie-description {
-            width: 622px;
-            font-size: 18px;
-            margin-bottom: 24px;
-        }
-
-        .grid-container-directors-actors-etc {
-            padding: 0;
-        }
-
-        #dd-heading {
-            font-size: 32px;
-            margin-top: 224px;
-            width: 662px;
-        }
-
-        .grid-item {
-            font-size: 14px;
-            width: 622px;
-        }
-
+    #img-cover-desktop {
+        height: auto;
+        width: 220px;
     }
 
-    /* Extra Large (xl) */
-    @media (min-width: 1280px) {
-
-        .main-movie-page {
-            margin: 0 78px;
-        }
-
-        #dd-heading {
-            margin-top: 298px;
-        }
-
-        .movie-description {
-            padding: 22px 0;
-        }
-
-        #img-cover-desktop {
-            height: auto;
-            width: 269px;
-            margin-right: 62px;
-            margin-top: 86px;
-        }
-
-        .buttons-action-moviepage-desktop {
-            width: 269px;
-        }
-
+    .buttons-action-moviepage-desktop {
+        width: 220px;
     }
 
-    /* 2XL (2xl) */
-    @media (min-width: 1536px) {
+    .movie-description {
+        width: 622px;
+        font-size: 18px;
+        margin-bottom: 24px;
+    }
 
-        .main-movie-page {
-            margin: 0 160px;
-        }
+    .grid-container-directors-actors-etc {
+        padding: 0;
+    }
 
-        #dd-heading {
-            margin-top: 360px;
-            font-size: 38px;
-            width: 780px;
-        }
+    #dd-heading {
+        font-size: 32px;
+        margin-top: 224px;
+        width: 662px;
+    }
 
-        .movie-description {
-            font-size: 20px;
-            width: 780px;
-        }
+    .grid-item {
+        font-size: 14px;
+        width: 622px;
+    }
+}
 
-        .movie-details {
-            padding-top: 28px;
-            padding-bottom: 28px;
-        }
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
 
-        #img-cover-desktop {
-            height: auto;
-            width: 360px;
-            margin-right: 144px;
-            margin-top: 86px;
-        }
+    .main-movie-page {
+        margin: 0 78px;
+    }
 
-        .buttons-action-moviepage-desktop {
-            width: 360px;
-        }
+    #dd-heading {
+        margin-top: 298px;
+    }
 
-        .grid-item {
-            font-size: 1rem;
-        }
+    .movie-description {
+        padding: 22px 0;
+    }
 
-        .grid-container-directors-actors-etc {
-            margin-bottom: 180px;
-        }
+    #img-cover-desktop {
+        height: auto;
+        width: 269px;
+        margin-right: 62px;
+        margin-top: 86px;
+    }
 
+    .buttons-action-moviepage-desktop {
+        width: 269px;
+    }
+}
+
+/* 2XL (2xl) */
+@media (min-width: 1536px) {
+
+    .main-movie-page {
+        margin: 0 160px;
+    }
+
+    #dd-heading {
+        margin-top: 360px;
+        font-size: 38px;
+        width: 780px;
+    }
+
+    .movie-description {
+        font-size: 20px;
+        width: 780px;
+    }
+
+    .movie-details {
+        padding-top: 28px;
+        padding-bottom: 28px;
+    }
+
+    #img-cover-desktop {
+        height: auto;
+        width: 360px;
+        margin-right: 144px;
+        margin-top: 86px;
+    }
+
+    .buttons-action-moviepage-desktop {
+        width: 360px;
+    }
+
+    .grid-item {
+        font-size: 1rem;
+    }
+
+    .grid-container-directors-actors-etc {
+        margin-bottom: 180px;
     }
 }
