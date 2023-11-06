@@ -37,7 +37,6 @@
     background-color: #FFD568;
 }
 
-
 /* Extra Large (xl) */
 @media (min-width: 1280px) {
     .container-checkout-success {
@@ -50,5 +49,4 @@
     .text-checkout-success {
         font-size: 22px;
     }
-
 }

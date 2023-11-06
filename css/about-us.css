@@ -20,13 +20,13 @@
         cursor: pointer;
     }
 
-.heading-about-us {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    font-size: 32px;
-    padding: 38px 0;
-}
+    .heading-about-us {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        font-size: 32px;
+        padding: 38px 0;
+    }
 
     .line-divider-heading {
         background-color: var(--secondary);
@@ -50,8 +50,6 @@
     .about-us-text {
         width: 392px;
     }
-
-
 }
 
 /* Small (sm) */
@@ -62,7 +60,6 @@
         height: auto;
         margin: 56px 0;
     }
-
 }
 
 /* Medium (md) */
@@ -77,15 +74,13 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-
     }
+
     .about-us-text {
         flex-direction: column;
         width: 100%;
         margin-right: 44px;
     }
-
-
 }
 
 /* Extra Large (xl) */
@@ -100,7 +95,6 @@
         font-size: 18px;
         line-height: 38px;
     }
-
 }
 
 /* 2XL (2xl) */
@@ -122,5 +116,4 @@
     .p-about-us {
         font-size: 20px;
     }
-
 }
